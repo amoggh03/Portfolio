@@ -70,4 +70,15 @@ body {
     border-radius: 50%; /* Make it circular */
     box-shadow: 0 0 10px rgba(0, 128, 128, 0.5); /* Add a subtle shadow */
 }
+/* Profile Image Styling */
+.profile-img {
+    width: 220px; /* Crop a little more by reducing the width */
+    height: 220px; /* Set the height to maintain square aspect ratio */
+    object-fit: cover; /* Ensures the image fills the circle evenly */
+    border-radius: 50%; /* Keeps it circular */
+    box-shadow: 0 0 15px rgba(0, 128, 128, 0.5); /* Enhanced shadow */
+    filter: brightness(1.1) contrast(0.95) blur(0.3px); /* Smoothing effect */
+    overflow: hidden; /* Crops any overflow */
+}
+
 
